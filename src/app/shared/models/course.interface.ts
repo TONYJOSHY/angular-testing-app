@@ -3,6 +3,11 @@ export interface Course {
     seqNo?:number;
     description?:string;
     longDescription?: string;
+    iconUrl?: string;
+    uploadedImageUrl?:string;
+    courseListIcon?: string;
+    category?:string;
+    lessonsCount?:number;
 }
 
 export interface Lesson {
